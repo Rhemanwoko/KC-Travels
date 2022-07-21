@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Manrope:wght@200;300;400;500;600;700;800&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:wght@800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Open Sans';
+}
+
+.first h4 {
+    font-size: 48px;
+    margin-bottom: 16px;
+    color: #174AAD;
+}
+
+.first p {
+    width: 588px;
+    font-size: 24px;
+    font-weight: 400;
+}
+.first {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.second {
+    background: url(../img/my-trips-sec-bg.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.second a:hover {
+    color: black;
+}
+
+.sec-lnk-1 {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 33px;
+    padding-right: 33px;
+    background: #174AAD;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-right: 48px;
+}
+
+.sec-lnk-2 {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 33px;
+    padding-right: 33px;
+    background: #D9D9D9;
+    color: #174AAD;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-right: 48px;
+}
+
+.sec-cont {
+    padding-top: 158px;
+    padding-bottom: 508px;
+}
+
+.sec-1-p {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.sec-2-p {
+    font-size: 16px;
+    margin-bottom: 38px;
+}
+
+.third {
+    margin-top: 56px;
+    margin-bottom: 102px;
+}
+.third-1-p {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.third-2-p {
+    margin-bottom: 24px;
+}
+
+.third-3-p {
+    width: 392px;
+    font-size: 16px;
+    margin-bottom: 88px;
+}
+
+.swiper {
+    width: 75%;
+}
+
+.contain-pag {
+    position: relative !important;
+}
+
+.swiper-button-next {
+    position: absolute !important;
+    right: 110px !important;
+}
+
+.swiper-button-prev {
+    position: absolute !important;
+    left: 110px !important;
+}
+.swiper-slide {
+    width: 100%;
+}
+
+.swiper-slide .col-lg-6 .swiper-text {
+    background: rgba(217, 217, 217, 0.5);
+    padding-top: 16px;
+    padding-left: 16px !important;
+    padding-bottom: 38px;
+}
+
+.swiper-t-1 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.swiper-t-2 {
+    margin-bottom: 16px;
+}
+
+.swiper-t-3 {
+    margin-bottom: 0;
+}
+
+.swiper-text p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.fourth {
+    background: linear-gradient(180deg, #FFE259 0%, #FFA751 100%);
+    opacity: 0.7;
+    margin-bottom: 60px;
+}
+
+.fourth-header {
+    padding-top: 32px;
+    margin-bottom: 36px;
+    font-size: 32px;
+    font-weight: 700;
+    color: #1F222A;
+}
+
+.fourth-basis {
+    flex-basis: 31%;
+    padding-left: 26px;
+    padding-top: 24px;
+    padding-bottom: 32px;
+    background-color: white;
+    border-radius: 8px;
+}
+.fourth-star {
+    margin-bottom: 28px;
+}
+.fourth-p {
+    width: 293px;
+    margin-bottom: 68px;
+}
+.fourth-text p {
+    margin-bottom: 8px;
+}
+.row1 {
+    padding-bottom: 20px;
+    flex-wrap: nowrap;
+}
+
+.contain-pag-mob {
+    display: none;
+}
+
+@media (max-width: 769px) {
+    .row1 {
+        display: none !important;
+    }
+    .contain-pag {
+        display: none;
+    }
+    .first p {
+        width: auto;
+        font-size: 18px;
+        text-align: center !important;
+        font-weight: 400;
+    }
+    .first h4 {
+        font-size: 24px;
+        font-weight: 700;
+        text-align: center !important;
+    }
+    .first {
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+    .sec-cont {
+        padding-top: 211px;
+        padding-left: 40px;
+        padding-bottom: 24px;
+    }
+    .sec-1-p {
+        font-size: 24px;
+        font-weight: 700;
+        color: white;
+        margin-bottom: 0;
+    }
+    .sec-2-p {
+        font-size: 12px;
+        font-weight: 400;
+        color: white;
+        margin-bottom: 12px;
+    }
+    .sec-lnk-1 {
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        font-size: 11px;
+        font-weight: 700;
+        margin-right: 16px;
+    }
+    .sec-lnk-2 {
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        font-size: 11px;
+        font-weight: 700;
+        background-color: inherit;
+        border: 1px solid white;
+        color: white;
+        margin-right: 0;
+    }
+    .third {
+        margin-top: 24px;
+        margin-bottom: 32px;
+    }
+    .third-1-p {
+        font-size: 24px;
+    }
+    .third-2-p {
+        margin-bottom: 16px;
+    }
+    .third-3-p {
+        width: 291px;
+        margin-bottom: 25px;
+    }
+    .contain-pag-mob {
+        display: block;
+        width: 98%;
+    }
+    .swiper-button-next {
+        right: 1px !important;
+        height: 30px !important;
+    }
+    .swiper-button-prev {
+        left: 1px !important;
+    }
+    .swiper-slide {
+        border-radius: 6px;
+        box-shadow: 0px 4px 8px rgba(14, 31, 53, 0.12) !important;
+    }
+    .swiper-text {
+        padding-left: 10px !important;
+        padding-top: 10px !important;
+    }
+    .fourth {
+        width: 97% !important;
+        margin-left: auto !important;
+        margin-bottom: 0;
+    }
+    .fourth-header {
+        font-size: 20px;
+        color: #1F222A;
+        margin-bottom: 22px;
+    }
+    .fourth-pag {
+        background: white;
+        padding-top: 20px;
+        padding-left: 22px;
+        padding-bottom: 27px;
+    }
+    .fourth-p {
+        width: 249px;
+    }
+}
+
+@media (max-width: 426px) {
+    .row1 {
+        display: none !important;
+    }
+    .contain-pag {
+        display: none;
+    }
+    .first p {
+        width: auto;
+        font-size: 18px;
+        text-align: center !important;
+        font-weight: 400;
+    }
+    .first h4 {
+        font-size: 24px;
+        font-weight: 700;
+        text-align: center !important;
+    }
+    .first {
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+    .sec-cont {
+        padding-top: 211px;
+        padding-left: 40px;
+        padding-bottom: 24px;
+    }
+    .sec-1-p {
+        font-size: 24px;
+        font-weight: 700;
+        color: white;
+        margin-bottom: 0;
+    }
+    .sec-2-p {
+        font-size: 12px;
+        font-weight: 400;
+        color: white;
+        margin-bottom: 12px;
+    }
+    .sec-lnk-1 {
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        font-size: 11px;
+        font-weight: 700;
+        margin-right: 16px;
+    }
+    .sec-lnk-2 {
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        font-size: 11px;
+        font-weight: 700;
+        background-color: inherit;
+        border: 1px solid white;
+        color: white;
+        margin-right: 0;
+    }
+    .third {
+        margin-top: 24px;
+        margin-bottom: 32px;
+    }
+    .third-1-p {
+        font-size: 24px;
+    }
+    .third-2-p {
+        margin-bottom: 16px;
+    }
+    .third-3-p {
+        width: 291px;
+        margin-bottom: 25px;
+    }
+    .contain-pag-mob {
+        display: block;
+        width: 98%;
+    }
+    .swiper-button-next {
+        right: 1px !important;
+        height: 30px !important;
+    }
+    .swiper-button-prev {
+        left: 1px !important;
+    }
+    .swiper-slide {
+        border-radius: 6px;
+        box-shadow: 0px 4px 8px rgba(14, 31, 53, 0.12) !important;
+    }
+    .swiper-text {
+        padding-left: 10px !important;
+        padding-top: 10px !important;
+    }
+    .fourth {
+        width: 97% !important;
+        margin-left: auto !important;
+    }
+    .fourth-header {
+        font-size: 20px;
+        color: #1F222A;
+        margin-bottom: 22px;
+    }
+    .fourth-pag {
+        background: white;
+        padding-top: 20px;
+        padding-left: 22px;
+        padding-bottom: 27px;
+    }
+    .fourth-p {
+        width: 249px;
+    }
+}
+
+@media (max-width: 321px) {
+    .sec-cont {
+        padding-left: 8px;
+    }
+}

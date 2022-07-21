@@ -1,0 +1,95 @@
+body{
+    font-family: open sams;
+}
+
+.form-check{
+    /* padding:10px 10px; */
+    background: #F6F9FE;
+}
+.feel{
+    padding:20px 15px;
+}
+.doors{
+    background-color: #174AAD;
+    height:595px;
+    width:18%;
+    font-weight: bold;
+    /* margin-left:10px; */
+}
+.me{
+    padding-left: 0;
+}
+/* recommened section */
+.fave{
+    position:absolute;
+    bottom:0;
+    left:11px;
+    right:11px;
+    padding:10px;
+    background-color:#F6F9FE;
+    opacity: 0.7;
+    border-radius: 10px;
+    font-size:14px;
+    height:100px;
+    width:94%;
+}
+.cape{
+    margin-bottom:25px;
+}
+.cape img{
+    width:100%;
+}
+.worry{
+    width:100%;
+   background-color: #174AAD;
+}
+h2{
+    margin-top:10px;
+    font-weight: bold;
+}
+.until{
+    margin-left:5px;
+}
+
+/* Responsive screen */
+/* @media screen and (min-width:1441px){
+    .fave{
+        width:72%;
+    }
+} */
+@media screen and (max-width:768px){
+.like{
+    text-align:center;
+}
+.cape{
+    text-align: center;
+}
+h5{
+    font-size:16px;
+    font-weight:bold;
+}
+.doors{
+    width:25%;
+}
+}
+
+@media screen and (max-width:425px){
+    .looking{
+        width:100%;
+        border-radius: 10px;
+    }
+    .worry{
+        background-color: unset;
+        /* margin-top:20px; */
+    }
+    .fave{
+        width:95%;
+    }
+    .learner .fave{
+        left:0px;
+        width:100%;
+    }
+    .cape img{
+        width:100%;
+    }
+}

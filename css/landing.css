@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans';
+}
+
+#agents-section {
+    background: #fafafa;
+}
+
+#agents-section, .agents-info {
+    --bs-gutter-x: 0;
+}
+
+.contact-info-section {
+    width: 40%;
+    margin-block: 50px;
+}
+
+.agents-info {
+    margin-block: 50px;
+    /* width: 80%; */
+}
+
+.hero-text {
+    font-size: 32px;
+    font-weight: 700;
+
+}
+
+.hero-info{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 70px;    
+}
+
+.contact-btn {
+    background: #174AAd;
+    border-radius: 8px;
+    padding: 12px 8px;
+    width: 282px;
+    height: 56px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.image-container1 {
+    background: url(../img/agent1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 160px;
+    height: 160px;
+    margin: 0 auto;
+}
+
+.image-container2 {
+    background: url(../img/agent2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 160px;
+    height: 160px;
+    margin: 0 auto;
+}
+
+.image-container3 {
+    background: url(../img/agent3.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 160px;
+    height: 160px;
+    margin: 0 auto;
+}
+
+.image-container4 {
+    background: url(../img/agent4.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 160px;
+    height: 160px;
+    margin: 0 auto;
+}
+
+.agents-bio {
+    margin-left: -40px;
+}
+
+.name-text {
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+.role-text {
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 20px;
+}
+
+.testimonials-header h4{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.testimonials-header p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.landing-card-body {
+    background-color: #fafafa;
+    padding: 24px;
+    border-radius: 8px;
+    height: 424px;
+}
+
+.landing-card-body {
+    transition: all .3s ease-in-out;
+}
+
+.landing-card-body:hover {
+    color: white;
+    background: #174AAd;
+    transform: scale(0.96);
+}
+
+.landing-card-body:hover .landing-stars {
+    color: #ffe259;
+}
+
+.landing-name-text {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.landing-review-text {
+    font-size: 16px;
+    text-align: center;
+}
+
+.landing-review-text-bold {
+    font-weight: 700;
+}
+
+.landing-img-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.landing-img-section img {
+    height: 152px;
+    width: 152px;
+}
+
+.landing-stars {
+    color: #174AAd;
+}
+
+.landing-newsletter-form {
+    padding: 70px 20px;
+}
+
+.landing-newsletter-heading {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.landing-newsletter-subheading {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;  
+}
+
+.landing-newsletter-label {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.newsletter-button, #first-name {
+    width: 282px;
+}
+
+.newsletter-button {
+    color: #174AAd;
+    padding: 8px 8px;
+    border-radius: 8px;
+    background-color: white;
+    border: 0.5px solid #174AAd;
+    font-size: 16px;
+    font-weight: 700;
+    height: 56px;
+    margin-top: 20px;
+}
+
+.newsletter-email input{
+    width: 488px;
+}
+
+#email, #firstname {
+    padding: 12px 16px;
+    border-radius: 8px;
+    border: 0.5px solid #b4b8c0;
+    background-color: #d9d9d9;
+    color: #b4b8c0;
+    height: 48px;
+    outline: none;
+}
+
+@media (max-width: 769px) {
+    .contact-info-section {
+        width: 100%;
+    } 
+
+    .hero-text {
+        font-size: 24px;
+        font-weight: 700;
+        text-align: center;
+        padding: 0px 60px;
+    }
+    
+    .hero-info{
+        font-size: 14px;
+        font-weight: 400;
+        margin-bottom: 50px;
+        padding: 0px 10px;    
+    }
+
+    .contact-btn {
+        color: #174AAd;
+        border-radius: 4px;
+        padding: 6px 4px;
+        width: 146px;
+        height: 40px;
+        font-size: 12px;
+        font-weight: 700;
+        background: white;
+        border: 0.26px solid #174AAd;
+    }
+
+    .testimonials-header h4{
+        font-size: 24px;
+    }
+
+    .testimonials-subheader {
+        font-size: 14px !important;
+    }
+
+    .agents-info {
+        display: flex;
+        flex-wrap: nowrap;
+        padding: 0;
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .agents-bio {
+        width: 80px;
+    }
+
+    .agents-bio {
+        margin-left: 4px;
+        padding: 0;
+        width: 70px;
+    }
+
+    .name-text {
+        font-size: 11px;
+        margin-left: 10px;
+    }
+    
+    .role-text {
+        font-size: 9px;
+        margin-left: 10px;
+    }
+
+    .image-container1, .image-container2, .image-container3, .image-container4  {
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 80px;
+        height: 80px;
+        margin: 0 auto;
+    }
+
+    .landing-newsletter-form {
+        padding: 70px 0px;
+    }
+
+    .form-row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .landing-newsletter-heading {
+        font-size: 24px;
+    }
+
+    .landing-newsletter-subheading {
+        font-size: 14px;
+    }
+
+    .landing-newsletter-label {
+        font-size: 13px;
+    }
+
+    .newsletter-button, .newsletter-name input, .newsletter-email input{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    ::placeholder {
+        font-size: 12px;
+    }
+
+    .newsletter-button {
+        font-size: 13px;
+    }
+
+} 

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/signup.css" />
+    <title>Signup</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6 signup-image-container">
+          <img src="img/Group 30954 (1).png" alt="" class="image-fluid" />
+        </div>
+        <div class="col-lg-6 form-section">
+          <form action="signup" id="form" class="form-body">
+            <h4 class="">Create an Account</h4>
+            <p class="signup-subheader lh-1">Let's take you around the world</p>
+            <div class="main">
+              <label for="name" class="name-label">Your Name</label><br />
+              <input type="text" id="name-input" placeholder="johndoe" />
+
+              <label for="email" class="email-label">Email</label><br />
+              <input
+                type="email"
+                id="email-input"
+                placeholder="johndoe@example.com"
+              />
+              <p id="email-error"></p>
+
+              <label for="Phone-number" class="phone-label">Phone Number</label
+              ><br />
+              <select name="phone-number" id="phone-number">
+                <option value="">+234</option>
+                <option value="">+224</option>
+                <option value="">+668</option>
+              </select>
+              <input type="number" class="phone" />
+
+              <label for="password" class="password-label d-block"
+                >Password</label
+              >
+              <input
+                type="password"
+                id="password-input"
+                placeholder="password should contain at least 8 characters"
+                onkeydown="passwordValidation()"
+              />
+              <span class="eye" onclick="togglePassword ()">
+                <i class="bi bi-eye-fill eye-open"></i>
+                <i class="bi bi-eye-slash-fill eye-closed"></i>
+              </span>
+              <span id="password-error"></span>
+
+              <label for="password" class="password-label"
+                >Re-enter Password</label
+              >
+              <input
+                type="password"
+                id="password-input"
+                placeholder="re-enter password"
+                onkeydown="passwordValidation()"
+              />
+              <span class="eye" onclick="togglePassword ()">
+                <i class="bi bi-eye-fill eye-open"></i>
+                <i class="bi bi-eye-slash-fill eye-closed"></i>
+              </span>
+              <span id="password-error"></span>
+              <p>Password should be alpha-numerical</p>
+
+              <div class="creat-acc d-flex justify-content-between mb-4">
+                <div class="check-box d-flex align-items-center">
+                  <input type="checkbox" name="" id="logged-in" />
+                  <label for="" class="small-text ps-1 pt-1"
+                    >By creating an account, you agree to our terms and
+                    condition</label
+                  >
+                </div>
+              </div>
+
+              <button class="fw-bold mb-2 creat-acc-btn" type="submit">
+                Create Account
+              </button>
+              <p class="small-text text-center mb-4">
+                Already have an account?
+                <span class="text-primary small-text text-center"
+                  ><a href="./login.html">Login</a></span
+                >
+              </p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/signup.js"></script>
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>

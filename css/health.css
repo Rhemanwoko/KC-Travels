@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+body {
+    font-family: 'Open Sans';
+}
+
+#health-image-section {
+    background: url(../img/health-herobg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+#health-image-section h2  {
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.health-swiper-section p, .health-hero-text-section p, .health-tours-text-section p, #health-image-section p {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.health-tours-body h4, .health-hero-text-section h4 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.health-tours-text-section h5 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.health-swiper-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.health-swiper-img img {
+    width: 200px;
+    height: 200px;
+}
+
+.health-hero-text-section p, .health-tours-text-section p {
+    font-weight: 400;
+}
+
+.health-tours-info {
+    display: flex;
+}
+
+.health-tours-image-section {
+    width: 30%;
+}
+
+.health-tours-text-section {
+    width: 70%;
+}
+
+.health-tours-image-section img {
+    height: 700px;
+    width: 400px;
+}
+
+.health-tours-body h4 {
+    color: #174aad;
+}
+
+
+@media (max-width: 1025px) { 
+    .health-tours-image-section img {
+        height: 800px;
+        width: 300px;
+    }
+}
+
+/* 
+.health-tours-image-section img {
+    height: 450px;
+    width: 270px;
+} */
+
+@media (max-width: 769px) {
+
+    #health-image-section h2  {
+        font-size: 24px;
+    }
+    
+    .health-swiper-section p, .health-hero-text-section p, .health-tours-text-section p, #health-image-section p {
+        font-size: 16px;
+    }
+    
+    .health-tours-body h4, .health-hero-text-section h4 {
+        font-size: 24px;
+    }
+    
+    .health-tours-text-section h5 {
+        font-size: 16px;
+    }
+    
+    .health-tours-info {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .health-tours-image-section {
+        width: 100%;
+    }
+    
+    .health-tours-text-section {
+        width: 100%;
+    }
+
+    .health-tours-text-section {
+        padding: 20px 0px 0px 0px !important;
+    }
+
+    .health-tours-image-section img {
+        height: 560px;
+        width: 100%;
+    }
+
+    .health-swiper-img img {
+        width: 100%;
+        height: 400px;
+    }
+}

@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans";
+}
+
+.signup-image-container {
+  padding: 0;
+}
+
+.signup-image-container img {
+  height: 100vh;
+  width: 100%;
+}
+
+.form-body {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+h4 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 64px;
+  margin-bottom: 4px;
+}
+
+.small-text {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+#name-input, #password-input,
+#email-input,
+.creat-acc-btn {
+  width: 100%;
+  height: 38px;
+  padding: 10px 8px;
+  border-radius: 8px;
+  border: 0.5px solid #b4b8c0;
+  background-color: #d9d9d9;
+  color: black;
+  outline: none;
+  font-size: 16px;
+}
+
+#phone-number{
+    width: 14%;
+    height: 38px;
+    padding: 8px 10px;
+    display: inline-block;
+    border-radius: 8px;
+    border: 0.5px solid #b4b8c0;
+    background-color: #d9d9d9;
+    color: black;
+    outline: none;
+    font-size: 16px
+}
+
+
+.phone{
+    width: 85%;
+    height: 38px;
+    /* display: inline-block; */
+    padding: 10px 8px;
+    margin-top: -8px;
+    border-radius: 8px;
+    border: 0.5px solid #b4b8c0;
+    background-color: #d9d9d9;
+    color: black;
+    outline: none;
+    font-size: 16px;
+}
+
+.eye {
+  position: absolute;
+  margin-left: -30px;
+  padding-top: 8px;
+  margin-top: -0px;
+  cursor: pointer;
+  color: #b4b8c0;
+  font-size: 14px;
+}
+
+.eye-open {
+  display: none;
+}
+
+#email-error,
+#password-error {
+  display: block;
+  font-weight: 500;
+  padding: 4px;
+  font-size: 14px;
+}
+
+.create-acc-btn {
+  border: none;
+  color: black;
+}
+
+.creat-acc-btn:hover {
+  background-color: #174aad;
+  color: white;
+}
+
+
+.password-label {
+  margin-top: 2px;
+}
+
+::placeholder {
+  color: #b4b8c0;
+  font-size: 14px;
+}
+
+label {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  margin-bottom: 2px; 
+}
+
+
+@media (max-width: 769px) {
+  h4 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    margin-bottom: 4px;
+    text-align: center;
+  }
+
+  .form-body {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .signup-subheader {
+    text-align: center;
+  }
+
+  #name-input, #phone-number,.phone, #password-input,
+  #email-input,
+  .create-acc-btn {
+    border: 0.5px solid #174aad;
+    border-radius: 4px;
+  }
+
+  .create-acc a,
+  .create-acc label {
+    font-size: 14px;
+  }
+
+  .signup-image-container {
+    display: none;
+  }
+
+  ::placeholder {
+    font-size: 12px;
+  }
+
+  .eye {
+    padding: 10px 0px 0px 5px;
+  }
+}
+
+@media (max-width: 769px) {
+  .small-text {
+    font-size: 12px !important;
+  }
+}
+
+@media (max-width: 375px){
+  #phone-number {
+    padding: 0px;
+    width: 19%;
+  }
+
+  .small-text{
+    font-size: 11px;
+    font-weight: 350;
+  }
+
+  .phone {
+    width:79%;
+    display: inline-block;
+  }
+}
+
+@media (max-width: 440px) {
+  #phone-number {
+    width: 23%;
+  }
+
+  .phone{
+    width: 75%;
+  }
+}

@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+}
+
+.greyed {
+    background-color: #F9F9F9;
+}
+
+.box-shadow {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.fw-700 {
+    font-weight: 700;        
+}
+
+.blue {
+    color: #174AAD !important;
+}
+
+.btn-outline-blue {
+    border: 2px solid #174AAD;
+    color: #174AAD !important;
+}
+
+.btn-blue {
+    background-color: #174AAD;
+}
+
+.top-680 {         
+    top: 680px !important;      
+}
+
+/*#map {
+    height: 520px !important;    
+}*/
+
+/* Mobile View */
+@media (max-width: 426px) {
+    .logo-width-sm {
+        width: 200px !important;
+    }
+
+    #get-in-touch {        
+        margin-top: 30px !important;
+        border-radius: 0px !important;
+        box-shadow: none !important;
+        transform: translateY(0) !important;
+        padding: 0px 30px 0px 30px !important;
+    }
+
+    .border-change {
+        background: rgba(217, 217, 217, 0.5);
+        border-radius: 15px;
+        margin-top: 20px !important;
+        padding: 20px 0px 0px 0px !important;
+        font-size: 10px !important;      
+    }
+
+    #form-section {
+        margin-top: 0px !important;        
+    }
+
+    .column {
+        flex-direction: column;
+        margin: 0px !important;
+        padding-left: 30px !important;
+        padding-right: 30px !important;        
+    }
+
+    .m-0 {
+        margin-left: 0px !important;
+        margin-right: 0px !important;        
+    }
+
+    #text {
+        padding-right: 0px !important;
+        margin: 10px 0px 20px 0px;
+    }
+
+    .mb-10 {
+        margin-bottom: 10px !important;
+    }
+}
+
+/* Tablet View */
+@media (min-width: 426px) and (max-width: 769px) {
+    .column {
+        flex-direction: column;
+        margin: 0px !important;        
+    }    
+    
+    .m-0 {
+        margin-left: 0px !important;
+        margin-right: 0px !important;        
+    }
+
+    #get-in-touch {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        max-width: 650px !important;
+        margin-bottom: 70px !important;             
+    }
+
+    .row {
+        margin-left: 0px !important;
+        margin-right: 0px !important; 
+    }
+
+    .border-change {        
+        margin-top: 20px !important;          
+    }
+    
+    #text {        
+        margin-bottom: 30px;
+    }
+}
+
+/* Desktop small */
+@media (min-width: 769px) and (max-width: 1025px) {
+    #get-in-touch {
+       width: 65% !important;
+    }
+
+    .margin-rl {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+}
