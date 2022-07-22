@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Manrope:wght@200;300;400;500;600;700;800&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:wght@800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Open Sans';
+}
+
+#text .pb-20 {
+    padding-bottom: 80px;
+}
+
+.w-48 {
+    width: 48%;
+}
+
+.w-23 {
+    width: 23px;
+}
+
+.no-gap {
+    margin-bottom: -20px !important;
+    padding-top: 10px !important;
+    padding-bottom: 3px !important;
+}
+
+/* Mobile View */
+@media (max-width: 426px) {
+    #main .d-flex,
+    #hotel .d-flex {
+        flex-direction: column !important;
+    }
+
+    .svg {
+        width: 100%;
+        margin-top: -600px !important;
+        margin-bottom: -200px !important;
+    }
+
+    #main .w-48 {
+        width: 100% !important;
+    }
+
+    .hotel-img img {
+        height: 400px !important;
+    }
+
+    .gap-20 {
+        margin-bottom: 20px !important;
+    }
+}
+
+@media (max-width: 426px) and (min-width: 321px) {
+    .svg {        
+        margin-top: -520px !important;
+        margin-bottom: -150px !important;
+    }
+
+    #hotel .d-flex {
+        text-align: center !important;
+    }    
+}
+
+/* Tablet View */
+@media (max-width: 769px) and (min-width: 426px) {
+    .svg {
+        width: 100%;
+        margin-top: -200px !important;    
+    }
+
+    #main .mb-200 {
+        margin-bottom: -280px !important;
+    }
+
+    #hotel .d-flex {
+        flex-wrap: wrap !important;
+    }   
+    
+       .hotel-img img {
+        height: 515px !important;
+    }
+
+    .gap-20 {
+        margin-bottom: 30px !important;
+        width: 50% !important;
+        text-align: center !important;
+    }
+
+    .gap-20 img {
+        width: 90% !important;    
+    }
+}
+
+/* Small Laptop View */
+@media (max-width: 1025px) and (min-width: 769px) {
+   .svg {
+    width: 100%;
+    margin-top: -110px !important;    
+   }
+
+   .hotel-img img {
+    height: 690px !important;
+   }
+
+   .hotel-name {
+    margin-top: -80px !important;
+   }
+
+   #hotel .d-flex {
+    flex-wrap: wrap !important;
+   }   
+
+   .gap-20 {
+    margin-bottom: 40px !important;
+    width: 50% !important;
+    text-align: center !important;
+   }
+
+   .gap-20 img {
+    width: 90% !important;    
+   }
+}

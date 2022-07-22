@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.w-38 {
+    width: 38%;
+}
+
+.w-35 {
+    width: 35%;
+}
+
+.w-45 {
+    width: 45%;
+}
+
+.h-48 {
+    height: 48px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.btn-subscribe,
+.btn-pay {
+    background: #174AAD;
+    border-radius: 8px;     
+    color: #fff;
+    align-items: center;
+}
+
+.btn-cancel {
+    color: #174AAD;
+    border-radius: 8px;  
+    border: 1.5px solid #174AAD;      
+}
+
+.btn-subscribe:hover,
+.btn-subscribe:active {
+    background: #174AAD !important;
+    border: none !important;
+    color: #fff !important;
+}
+
+input[type='email'] {
+    background: rgba(217, 217, 217, 0.5);
+    border: 0.5px solid #B4B8C0 !important;
+}
+
+input[type='datetime'],
+input[type='text'] {
+    border: 0.852573px solid #B4B8C0;
+    box-shadow: 3.41029px 3.41029px 12.7886px rgba(14, 31, 53, 0.05);
+    border-radius: 6px;
+    height: 60px;      
+    background-position: 400px 15px;
+    background-repeat: no-repeat;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #B4B8C0;          
+}
+
+input[type='datetime'] {
+    background-image: url(../img/Calendar.png);      
+}
+
+input[type='text'] {    
+    background-image: url(../img/location.png);           
+}
+
+.input {    
+    background-image: url(../img/time.png) !important;               
+}
+
+.text-blue {
+    color: #174AAD !important;
+}
+.body-base-20 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px
+}
+
+.my-100 {
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+.heading5 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;    
+}
+
+.body-small-16 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.bg-greyed {
+    background: #F9F9F9;
+}
+
+.px-150 {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.py-80 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.gap-2 {
+    margin-right: 5px;
+}
+
+.me-200 {
+    margin-right: 200px;
+}
+
+.m-negative {
+    left: 220px;
+    top: 30px;    
+}
+
+.border-none:hover,
+.border-none:active {
+    border: none !important;
+}
+
+.big-bold {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 32px;
+}
+
+.ms-200 {
+    margin-left: 200px;
+}
+
+.body-big-sbold {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.w-80 {
+    width: 70%;
+}
+
+.text-greyed {
+    color: #B4B8C0;
+}
+
+#hotel-book .btn-pay {
+    opacity: 0.5;    
+}
+
+#nigday .g-2 {
+    margin-right: 15px;
+}
+
+.fw-700 {
+    font-weight: 700 !important;
+}
+
+/* Mobile View */
+@media (max-width: 426px) {
+    .ms-200 {
+        margin-left: 0px !important;
+        width: 100% !important;
+    }
+
+    #newsletter .d-flex,
+    #form-section .d-flex,
+    #bookings-section .d-flex {
+        flex-direction: column !important;
+    }
+
+    .heading5 {
+        font-size: 28px !important;
+    }
+
+    .body-base-20 {
+        font-size: 16px !important;
+    }
+
+    #form-section .px-150 {
+        padding: 80px 20px !important;
+    }
+
+    #form-section .btn-cancel {
+        padding-top: 18px !important;
+    }
+
+    #form-section .w-35 {
+        width: 45% !important;
+    }
+
+    #form-section .flex-row,
+    #bookings-section .flex-row {
+        flex-direction: row !important;
+    }
+
+    #form-section .form-control,
+    #form-section .mb-5 {
+        margin-bottom: 20px !important;
+    }
+
+    #newsletter .w-60,
+    #newsletter .w-38,
+    #form-section .w-45 {
+        width: 100% !important;
+    }
+
+    input[type='datetime'],
+    input[type='text'] {        
+    background-position: 240px 15px;           
+   }
+
+   #bookings-section .svgs {
+    margin-top: 0px !important;
+    margin-right: 0px !important;
+   }
+
+   .m-negative {
+    left: 10px;
+    top: 10px;    
+   }
+
+   .big-bold {
+    font-size: 28px !important;
+   }
+
+   #bookings-section .text-blue {
+    align-self: flex-end !important;
+   }
+   
+   #bookings-section .w-80 {
+    width: 100% !important;
+   }
+
+   #bookings-section .location {
+    width: 90%;
+   }
+
+   #hotel-book .btn-pay {
+    width: 50% !important;
+    margin-left: 120px;
+   }
+
+   #bookings-section #nigday {
+    flex-direction: row !important;    
+   }
+
+   #nigday {
+    width: 100% !important;
+    margin-top: 30px !important;
+    padding: 0px 20px;
+   }
+
+   .reviews {
+    width: auto !important;
+    margin-top: 20px;
+    padding: 0px 20px;
+   }
+    
+}
+
+@media (min-width: 321px) and (max-width: 426px){
+   #hotel-book .btn-pay {
+    width: 50% !important;
+    margin-left: 160px;
+   }  
+   
+   input[type='datetime'],
+    input[type='text'] {        
+    background-position: 330px 15px;           
+   }
+}
+
+@media (min-width: 426px) and (max-width: 769px) {
+    .ms-200 {
+        margin-left: 0px !important;
+        width: 100% !important;
+    }
+
+    #bookings-section .svgs {       
+        margin-right: 0px !important;
+    }
+
+    .reviews {
+        width: auto !important;        
+    }
+
+    #hotel-book .btn-pay {
+        margin-top: 45px !important;
+    }
+
+    #form-section .w-45 {
+        width: 100% !important;
+    }
+
+    #form-section .d-flex {
+        flex-direction: column;
+    }
+    
+    #form-section .px-150 {
+        padding-left: 20px !important;
+        padding-right: 20px !important;        
+    }
+
+    #form-section .form-control,
+    #form-section .mb-5 {
+        margin-bottom: 20px !important;
+    }
+
+    input[type='datetime'],
+    input[type='text'] {        
+    background-position: 600px 15px;           
+   }
+   
+   .m-negative {
+    left: 30px;
+    top: 30px;    
+   }
+}
+
+@media (min-width: 769px) and (max-width: 1025px) {
+    .ms-200 {
+        margin-left: 0px !important;
+        width: 100% !important;
+    }
+
+    #bookings-section .svgs {       
+        margin-right: 20px !important;
+    }
+    
+    #form-section .w-45 {
+        width: 48% !important;
+    }
+    
+    #form-section .px-150 {
+        padding-left: 20px !important;
+        padding-right: 20px !important;        
+    }     
+   
+   .m-negative {
+    left: 30px;
+    top: 20px;    
+   }
+}
