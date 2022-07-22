@@ -9,11 +9,6 @@ body {
     line-height: 48px;    
 }
 
-#favorites .back-arrow:active,
-#favorites .back-arrow:hover {
-    background-color: #fff !important;
-}
-
 .bg-light-grey {
     background: #FAFAFA;
     box-shadow: 0px 3px 6px rgba(14, 31, 53, 0.12);
@@ -88,6 +83,11 @@ input[type='email'] {
 
 .text-blue {
     color: #174AAD !important;
+}
+
+#favorites .no-bg:active,
+#favorites .no-bg:hover {
+    background-color: #fff !important;
 }
 
 @media (max-width: 426px) {
