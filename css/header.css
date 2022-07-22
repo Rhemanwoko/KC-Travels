@@ -28,6 +28,10 @@ footer {
 .downn {
   width: auto !important;
 }
+
+.downn button:hover {
+  border: none;
+}
 /* a:active {
   color: #174aad;
   font-weight: 400;
