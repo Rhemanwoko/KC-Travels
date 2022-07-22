@@ -15,6 +15,19 @@ footer {
   background-color: #1f222a;
 }
 
+.hp-1 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.hp-2 {
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.downn {
+  width: auto !important;
+}
 /* a:active {
   color: #174aad;
   font-weight: 400;
